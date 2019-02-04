@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
 	// console.log("Hello World")
 	// console.log("banana", banana)
 	// let banana = "bananas"
@@ -45,10 +45,11 @@ document.addEventListener("DOMContentLoaded", () => {
 	// const zooAnimals = ["KevyWevy the Bird", "Jerold the Squirrel", "Simon the Squid", "Tara the Elephant", "Kudzanayi the Wizard"]
 
 	 // the Bird", "Jerold the Squirrel", "Simon the Squid", "Tara the Elephant", "Kudzanayi the Wizard"]
-
+    const animals = await fetchAnimals()
+    console.log("animals", animals);
 	const cage = document.querySelector("#zoo-animals");
 	const form = document.querySelector("#create-animal");
-	form.addEventListener("submit", () => {
+	form.addEventListener("submit", async () => {
 		event.preventDefault()
 		console.log("event target", event.target.species.value)
 		let name = event.target.name.value
@@ -61,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		// save to the database
 
 		// show the new thing on DOM
-		fetch("http://localhost:3000/animals", {
+		return await fetch("http://localhost:3000/animals", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json"
@@ -78,18 +79,21 @@ document.addEventListener("DOMContentLoaded", () => {
 		.then(animal => console.log(animal))
 	})
 
-	fetchAnimals()
 
-	function fetchAnimals(){
+	async function fetchAnimals(){
 		// console.log("fetching animals...")
-		fetch("http://localhost:3000/animals")
-		.then(res => res.json())
+    let res = await fetch("http://localhost:3000/animals")
+    let animals = await res.json()
+    return animals
+
+		// fetch("http://localhost:3000/animals")
+		// .then(res => res.json())
 		// .then(console.log)
 		// same as:
 		// .then(animals => console.log(animals))
-		.then(animals => {
-			animals.forEach(putAnimalOnDOM)
-		})
+		// .then(animals => {
+		// 	animals.forEach(putAnimalOnDOM)
+		// })
 	}
 
 	function putAnimalOnDOM({name, species, legs, hobby, image}){
