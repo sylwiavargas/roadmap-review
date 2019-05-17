@@ -35,3 +35,4 @@ Fun little tidbits:
 - use the very useful name attribute in forms 
 - understand when to use headers
 - use ES6 object property value shorthand
+- work with dataset id's, and understand how to query select using using data-id
