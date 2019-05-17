@@ -104,6 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function createAnimal(){
     event.preventDefault()
     let newAnimal = gatherFormData()
+    event.target.reset()
     createOnBackEnd(newAnimal)
     .then(makeOneSpan)
   }
@@ -152,11 +153,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function patchAnimal(id){
     event.preventDefault()
-    let formData = gatherFormData()
+    let body = JSON.stringify(gatherFormData())
     fetch(`${URL}/${id}`, {
       method: "PATCH",
+      body,
       headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify(formData)
     })
     .then(res => res.json())
     .then((animal) => {

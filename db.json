@@ -25,12 +25,28 @@
       "id": 18
     },
     {
-      "name": "Tara",
+      "name": "Tanya",
       "species": "Kangaroo",
       "ferociousness": "10",
       "hobby": "punching",
       "image": "https://media.australianmuseum.net.au/media/dd/images/eastern_grey_kangaroo.8d02488.width-800.cdc7286.jpg",
       "id": 19
+    },
+    {
+      "name": "Banana",
+      "species": "banana",
+      "ferociousness": "0",
+      "hobby": "making people slip",
+      "image": "https://www.healthline.com/hlcmsresource/images/AN_images/banana-pink-background-thumb.jpg",
+      "id": 20
+    },
+    {
+      "name": "Leizl",
+      "species": "Koala",
+      "ferociousness": "2",
+      "hobby": "sleeping",
+      "image": "https://cdn.newsapi.com.au/image/v1/cb7dcda91f7aa778000fc90399a09ac8?width=650",
+      "id": 21
     }
   ]
 }
