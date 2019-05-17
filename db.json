@@ -1,14 +1,6 @@
 {
   "animals": [
     {
-      "id": 12,
-      "name": "Tara",
-      "species": "Elephant",
-      "ferociousness": 4,
-      "hobby": "stomping around",
-      "image": "https://media4.s-nbcnews.com/j/newscms/2014_11/241886/140310-smart-elephants-347_5f910b48b8c1a85fc892e9c3d9cc2d00.fit-760w.jpg"
-    },
-    {
       "name": "Jane",
       "species": "Cat",
       "ferociousness": "3",
@@ -17,10 +9,10 @@
       "id": 13
     },
     {
-      "name": "Joel",
-      "species": "Dog",
+      "name": "Joey",
+      "species": "Pup",
       "ferociousness": "1",
-      "hobby": "happiness",
+      "hobby": "running around",
       "image": "https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA4OC85MTEvb3JpZ2luYWwvZ29sZGVuLXJldHJpZXZlci1wdXBweS5qcGVn",
       "id": 14
     },
@@ -31,6 +23,14 @@
       "hobby": "happiness",
       "image": "https://www.sciencemag.org/sites/default/files/styles/inline__450w__no_aspect/public/butterfly_16x9_0.jpg?itok=iq6kFrCi",
       "id": 18
+    },
+    {
+      "name": "Tara",
+      "species": "Kangaroo",
+      "ferociousness": "10",
+      "hobby": "punching",
+      "image": "https://media.australianmuseum.net.au/media/dd/images/eastern_grey_kangaroo.8d02488.width-800.cdc7286.jpg",
+      "id": 19
     }
   ]
 }

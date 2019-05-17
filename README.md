@@ -6,6 +6,7 @@ Instructions:
 - after understanding the features of this app, try to recreate this app
 - use the empty index.html file and index.js file to recreate from scratch
 - check out solution.html and solution.js 
+- hot tip: when adding an image for a new animal, right click and "copy image URL" from an image you'd like to use, and make sure the image size isn't too big
 
 
 
