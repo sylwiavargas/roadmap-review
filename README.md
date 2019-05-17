@@ -13,10 +13,10 @@ Objectives:
 
 - understand how to slap something small on the DOM
 - iterate to slap multiple things on the dom
-- work with static data from an array
+- try working with static data from an array first (such as an array of animals)
 - work with events
 - make our data bigger: slap divs on the dom from objects
-- move to fetching from an api
+- move to fetching from our db.json
 - understand promises in more detail
 - understand when to use headers
 - understand optimistic/pessimistic rendering
@@ -24,12 +24,13 @@ Objectives:
 -CRUD: 
 -be able to read things from api/db on the DOM
 -be able to create a new thing and send it to api/db and to dom
-- If time allows: update and delete
+-be able to update and delete
+-modularize and refactor code
 
 Fun little tidbits: 
 - when to use += and = with innerHTML
-- async await
-- destructuring
-- name attribute in forms 
-- when to use headers
-- object property value shorthand
+- try your hand at async await
+- check out ES6 destructuring
+- use the very useful name attribute in forms 
+- understand when to use headers
+- use ES6 object property value shorthand
