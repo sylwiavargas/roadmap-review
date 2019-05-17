@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // } else {
       infoDiv.innerHTML = ""
       infoDiv.dataset.id = null
-      newDiv.innerHTML = `<h3>${animal.name} the ${animal.species}</h3><p>Ferociousness: ${animal.ferociousness}</p><p>Hobby: ${animal.hobby}</p><img src="${animal.image}"/><button id='update-button'>UPDATE Beast</button> `
+      newDiv.innerHTML = `<h3>${animal.name} the ${animal.species}</h3><p>Ferociousness: ${animal.ferociousness}</p><p>Hobby: ${animal.hobby}</p><img src="${animal.image}"/><br><button id='update-button'>UPDATE Beast</button> `
       infoDiv.dataset.id = animal.id
       infoDiv.append(newDiv)
       let updateButton = infoDiv.querySelector('#update-button')
