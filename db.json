@@ -17,7 +17,7 @@
       "id": 14
     },
     {
-      "name": "John",
+      "name": "Joh",
       "species": "Butterfly",
       "ferociousness": "1",
       "hobby": "happiness",
@@ -25,15 +25,7 @@
       "id": 18
     },
     {
-      "name": "Tanya",
-      "species": "Kangaroo",
-      "ferociousness": "10",
-      "hobby": "punching",
-      "image": "https://media.australianmuseum.net.au/media/dd/images/eastern_grey_kangaroo.8d02488.width-800.cdc7286.jpg",
-      "id": 19
-    },
-    {
-      "name": "Banana",
+      "name": "Banan",
       "species": "banana",
       "ferociousness": "0",
       "hobby": "making people slip",
@@ -41,11 +33,11 @@
       "id": 20
     },
     {
+      "hobby": "sleep",
+      "image": "opefijhjndv.jgp",
       "name": "Leizl",
-      "species": "Koala",
-      "ferociousness": "2",
-      "hobby": "sleeping",
-      "image": "https://cdn.newsapi.com.au/image/v1/cb7dcda91f7aa778000fc90399a09ac8?width=650",
+      "species": "Opossum",
+      "ferociousness": "10",
       "id": 21
     }
   ]
